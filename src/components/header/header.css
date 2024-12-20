@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exit-icon{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.info-page-content{
+  display: flex;
+}
+.info-content{
+  background: transparent;
+  border: none;
+  position: relative;
+}
+.tooltip-box{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 7%;
+  left: 42%;
+  background-color: #7A68FF;
+  border-radius: 2rem;
+  width: 260px;
+  height: 70px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem;
+  text-align: left;
+}
+
+.tooltip-box::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 85%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #7A68FF transparent;
+}
+
+.info-page-content:hover .tooltip-box{
+  display: block;
+}

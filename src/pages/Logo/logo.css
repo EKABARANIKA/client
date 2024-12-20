@@ -1,0 +1,52 @@
+.logo-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 380px;
+   height: 800px;
+    background-color: #7A68FF;
+    
+  }
+
+.logo-screen h1{
+    color: white;
+    font-size: 60px;
+    animation: zoomIn 5s  infinite linear, fadeIn 2s ease-out;
+  }
+
+  @keyframes zoomIn {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+ 

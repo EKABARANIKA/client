@@ -1,0 +1,38 @@
+
+.home-page {
+    background-color: #2B223E; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+}
+   
+.emoji {
+    width: 150px; 
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+  
+.highlight {
+    color: #7A68FF;
+}
+  
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #9A9A9A; 
+}
+ 
+
+  
